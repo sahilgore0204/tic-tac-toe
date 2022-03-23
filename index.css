@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  height: 100%;
+}
+div{
+  display: inline-block;
+}
+.grid{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 700px;
+  margin-left: -250px;
+  margin-top: -350px;
+}
+h1{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+td{
+  font-family: sans-serif;
+  font-size: 50px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px;
+  width: 24%;
+  height: 67px;
+  background-color: white;
+  text-align: center;
+}
+table{
+  margin: 0 auto;
+  background: black;
+  width: 283px;
+  height: 283px;
+  margin-top: 50px;
+}
+#head{
+  font-size: 90px;
+  margin: 0;
+  margin-top: 50px;
+}
+.f2,.s2,.t2{
+  margin:0 5px;
+}
+.f1,.s1,.t1{
+  margin-left: 4px;
+}
+.f3,.s3,.t3{
+  margin-right: 4px;
+}
+.f1,.f2,.f3{
+  margin-top: 4px;
+}
+
+.scoreboard{
+  margin-top: 50px;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 28px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.player-1-score{
+  float: left;
+}
+
+.player-2-score{
+  float: right;
+}
+
+.tie{
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.hor{
+  width: 87.15px;
+  height: 5px;
+  position:absolute;
+  right: 10px;
+  bottom: 9px;
+  background-color: black;
+  z-index: 1;
+}
+
